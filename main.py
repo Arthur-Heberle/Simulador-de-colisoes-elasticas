@@ -2,6 +2,7 @@ import pygame, random
 import numpy as np
 
 class Particula:
+    
     def __init__(self,env, posicao, velocidade, raio, massa):
         self.env = env
         self.cor = (random.randint(100,255), random.randint(70,170), random.randint(100,255))
